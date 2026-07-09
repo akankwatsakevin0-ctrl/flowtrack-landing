@@ -193,6 +193,45 @@ const Testimonials = () => (
   </section>
 );
 
+const stats = [
+  { value: '10k+', label: 'Teams' },
+  { value: '99.9%', label: 'Uptime' },
+  { value: '50M+', label: 'Tasks Tracked' },
+  { value: '4.9/5', label: 'User Rating' },
+];
+
+const Stats = () => (
+  <section className="border-y border-gray-100 bg-gray-50/50 px-6 py-16">
+    <div className="mx-auto max-w-7xl">
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+        {stats.map((s) => (
+          <div key={s.label} className="text-center">
+            <p className="text-3xl font-bold text-gray-900 sm:text-4xl">{s.value}</p>
+            <p className="mt-1 text-sm text-gray-500">{s.label}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+);
+
+const CTA = () => (
+  <section className="px-6 py-24">
+    <div className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-primary-600 to-primary-800 px-8 py-16 text-center shadow-2xl shadow-primary-200 sm:px-16">
+      <h2 className="text-3xl font-bold text-white sm:text-4xl">Ready to streamline your workflow?</h2>
+      <p className="mx-auto mt-4 max-w-xl text-primary-100">Join thousands of teams already shipping faster with FlowTrack. Start your free trial today.</p>
+      <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <button className="rounded-lg bg-white px-8 py-3 text-sm font-semibold text-primary-700 transition hover:bg-primary-50">
+          Start Free Trial
+        </button>
+        <button className="rounded-lg border border-primary-400 px-8 py-3 text-sm font-semibold text-white transition hover:bg-primary-700">
+          Talk to Sales
+        </button>
+      </div>
+    </div>
+  </section>
+);
+
 const Footer = () => (
   <footer className="border-t border-gray-100 bg-gray-50 px-6 py-16">
     <div className="mx-auto max-w-7xl">
@@ -267,6 +306,8 @@ export default function App() {
         <Features />
         <Pricing />
         <Testimonials />
+        <Stats />
+        <CTA />
       </main>
       <Footer />
     </div>
