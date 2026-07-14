@@ -1,6 +1,6 @@
 # FlowTrack — SaaS Landing Page
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-38BDF8?style=for-the-badge&logo=vercel)](YOUR_DEPLOYED_URL_HERE)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-38BDF8?style=for-the-badge&logo=vercel)](https://contracts-eta.vercel.app)
 [![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=fff)](https://tailwindcss.com/)
@@ -8,7 +8,7 @@
 
 A responsive landing page for a fictional SaaS project management tool. Built with React 18, Vite, and Tailwind CSS — designed to showcase modern frontend development, component architecture, and pixel-perfect UI.
 
-**Live:** [YOUR_DEPLOYED_URL_HERE](YOUR_DEPLOYED_URL_HERE)
+**Live:** [https://contracts-eta.vercel.app](https://contracts-eta.vercel.app)
 
 ---
 
