@@ -24,6 +24,24 @@ A responsive landing page for a fictional SaaS project management tool. Built wi
 
 ---
 
+## Project Structure
+
+```
+├── public/
+│   └── favicon.svg          # Favicon asset
+├── src/
+│   ├── App.jsx              # Root component with all sections
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Tailwind imports + custom styles
+├── index.html               # HTML entry point
+├── vite.config.js           # Vite config
+├── tailwind.config.js       # Tailwind theme and content paths
+├── postcss.config.js        # PostCSS config (Tailwind + autoprefixer)
+└── package.json             # Dependencies and scripts
+```
+
+---
+
 ## Tech Stack
 
 | Technology | Purpose |
